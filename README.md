@@ -1,5 +1,5 @@
 # Twitter Sentiment Analysis Project
-<img src="images/image1.jpeg" alt="Negative, Neutral and Positive Emotions" width="2000" height="200">
+<img src="images/image1.jpeg" alt="Negative, Neutral and Positive Emotions" width="2000" height="300">
 
 This project utilizes sentiment analysis of Twitter data to understand customer views and preferences regarding iPhone and Google products. By examining user sentiments, Best Buy intends to make stocking decisions that match customer demand and boost overall satisfaction.
 
