@@ -31,7 +31,6 @@ The goal of this project is to analyse customer sentiments on Twitter to inform 
 4. Which machine learning model is most effective in sentiment analysis?
 
 
-
 ## Data Understanding
 
 The Present dataset contains a series of 9093 Tweets, the dataset has been pre-labeled by human raters. Raters judged if the tweet's text expressed a positive, negative or no emotion towards a brand and/or product, any time an emotion was expressed the rater was then asked to identify the brand or product that was the target of that emotion. All of this data was compiled into a CSV file labeled "judge-1377884607_tweet_product_company.csv" that can be found in the root of this repository.
@@ -39,6 +38,12 @@ The Present dataset contains a series of 9093 Tweets, the dataset has been pre-l
 The Tweets were in large part centered on Apple and Google products during/after the 2011 South by Southwest (SXSW) Conference. The resulting data file contains three columns per row, one for the tweet's text, one for the emotion expressed and one for the target product/brand of that emotion, when identifiable.
 
 Data was sourced from CrowdFlower via data.world, added by Kent Cavender-Bares on August 30, 2013.
+
+## Data Analysis
+#### Univariate Analysis
+In this part, we analyzed distribution of brands and emotions in tweets,tweet length distribution, brand value counts and emotional counts. Basically, this part involves analyzing each variable independently.
+<img src="images/image3.png" alt="Brand Distribution">
+
 
 ## Conclusions
 
