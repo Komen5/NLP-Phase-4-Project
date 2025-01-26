@@ -71,9 +71,10 @@ Also the prominence of terms like "sxsw," "apple," "google," and "iphone" across
 
 ## Modelling
 All models involved removing a common list of stop words (as well as a list of stop words that we supplemented), tokenizing and lemmatizing the tweet text feature.
+The central aspect of this project revolves around training and evaluating different machine-learning models for sentiment analysis. These models included Naive Bayes, Neural Networks, Random Forest, and XGBoost, among others. To address class imbalance within the dataset, we applied oversampling techniques. These strategies effectively enhanced the models' performance and their ability to accurately classify tweets.
 
-## Model Evaluation
-- The `Neural Networks (Fine-Tuned)` model has the highest test accuracy and precision, showing that fine-tuning significantly improves its performance.
+## Model Comparison
+- The `Neural Networks (Fine-Tuned)` model had the highest test accuracy and precision, showing that fine-tuning significantly improves its performance.
 - `Naive Bayes` and `Random Forest` (Default and Fine-Tuned) models show reasonable performance but lag behind the neural network models.
 - `XGBoost` shows a slight improvement after fine-tuning but still underperforms compared to the Neural Networks.
 Each model has its strengths, but based on the metrics provided, the fine-tuned Neural Networks model appears to be the best performer in terms of test accuracy and precision.
