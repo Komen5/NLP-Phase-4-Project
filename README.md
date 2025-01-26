@@ -42,8 +42,19 @@ Data was sourced from CrowdFlower via data.world, added by Kent Cavender-Bares o
 ## Data Analysis
 #### Univariate Analysis
 In this part, we analyzed distribution of brands and emotions in tweets,tweet length distribution, brand value counts and emotional counts. Basically, this part involves analyzing each variable independently.
+- We first analyzed the brand distribution graph whereby the "No Brand" category has the highest count, close to 6000. This indicates that a significant portion of the dataset consists of unbranded products. The "Apple" brand has the second-highest count, slightly above 2000. This suggests a strong presence and popularity of Apple products within the dataset. The "Google" brand has the lowest count, slightly above 1000. While it has a notable presence, it is less prevalent compared to Apple and the "No Brand" category.
 <img src="images/image3.png" alt="Brand Distribution">
+- Then we analyzed emotion distribution whereby it was found that the majority of the data is categorized as `"Neutral,"` followed by `"Positive"` emotions. There is a significantly lower count of `"Negative"` and `"Ambiguous"` emotions. Most tweets exhibit neutral sentiment, indicating that the dataset may have a majority of tweets with objective or balanced tones.
+<img src="images/image4.png" alt="Brand Distribution">
+- We also analyzed tweet lengths where it was observed that the distribution of tweet lengths is approximately normal, with the majority of tweets falling between 60 and 100 characters.
+<img src="images/image5.png" alt="Brand Distribution">
 
+#### Bivariate Analysis
+In this part, we wrote a function `myf.run_bivariate_analysis(df)` which performs a bivariate analysis on the dataframe df. This typically involves examining the relationships between two variables at a time.
+- The first bivariate analysis that we did was analyzing brand vs emotion. The distribution of emotions across brands provides insights into how people feel about them. For Apple and Google, Positive emotions are predominant, indicating favorable sentiment. The high count of Neutral emotions for the No Brand category might suggest ambivalence or non-specific sentiment.
+<img src="images/image6.png" alt="Brand Distribution">
+- The other bivariate analysis that we did was Tweet length vs emotion. The distribution of tweet lengths was across four different emotion categories: Negative, Positive, Neutral, and Ambiguous. Each box plot displays the range of tweet lengths, including the median, quartiles, and any potential outliers. The median tweet length is similar across all four emotion categories, indicating that the central tendency of tweet lengths does not vary significantly with the emotional content.
+<img src="images/image7.png" alt="Brand Distribution">
 
 ## Conclusions
 
