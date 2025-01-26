@@ -94,3 +94,7 @@ Each model has its strengths, but based on the metrics provided, the fine-tuned 
 4. Adopt and integrate sentiment analysis tools into business processes to automate and scale this analysis for other products and brands.
 5. Utilize the best-performing model (Neural Networks (Fine-Tuned) for ongoing sentiment analysis tasks. Regularly retrain the model with new data to maintain its accuracy and relevance.
 6. Expand the sentiment analysis framework to include competitors and other product categories. This can provide a comprehensive view of market dynamics and inform strategic decisions.
+
+### Links
+- [Link to Notebook](NLP-project.ipynb)
+- [Link to Presentation](Project-Presentation.pdf)
