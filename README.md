@@ -90,7 +90,7 @@ Each model has its strengths, but based on the metrics provided, the fine-tuned 
 
 1. Regularly monitor and analyze customer feedback on social media platforms to stay updated on changing preferences and emerging trends.
 2. Investigate and address the root causes of negative sentiments. For instance, frequent mentions of "store" in a negative context could indicate issues with in-store experiences or product availability.
-3. Pay attention to commonly mentioned product features and ensure they align with customer expectations. For example, improving features like "ipad" or "link" based on customer discussions can boost satisfaction.
+3. Pay attention to commonly mentioned product features and ensure they align with customer expectations. For example, improving features like "Ipad" or "link" based on customer discussions can boost satisfaction.
 4. Adopt and integrate sentiment analysis tools into business processes to automate and scale this analysis for other products and brands.
 5. Utilize the best-performing model (Neural Networks (Fine-Tuned) for ongoing sentiment analysis tasks. Regularly retrain the model with new data to maintain its accuracy and relevance.
 6. Expand the sentiment analysis framework to include competitors and other product categories. This can provide a comprehensive view of market dynamics and inform strategic decisions.
